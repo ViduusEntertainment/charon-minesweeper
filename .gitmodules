@@ -1,0 +1,3 @@
+[submodule "charon-engine"]
+	path = charon-engine
+	url = git@github.com:ViduusEntertainment/charon-engine.git
