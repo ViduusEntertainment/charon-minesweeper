@@ -51,6 +51,12 @@ public class MinesweeperButton extends UiComponent {
 		registerControllerListener(event -> {
 			if (event.getKeyState(ControllerState.ACTION1) == ControllerState.PRESSED_STATE) {
 				if (!uncovered) {
+					// update flag count
+					if (has_flag) {
+						has_flag = false;
+						screen.decrementFlagCount();
+					}
+					// uncover the box
 					int uncovered_buttons = recursiveUncover();
 					if (uncovered_buttons == 0) {
 						uncovered_buttons++;
@@ -60,11 +66,13 @@ public class MinesweeperButton extends UiComponent {
 				}
 			}
 			if (event.getKeyState(ControllerState.ACTION2) == ControllerState.PRESSED_STATE) {
-				has_flag = !has_flag;
-				if (has_flag) {
-					screen.incrementFlagCount();
-				} else {
-					screen.decrementFlagCount();
+				if (!uncovered) {
+					has_flag = !has_flag;
+					if (has_flag) {
+						screen.incrementFlagCount();
+					} else {
+						screen.decrementFlagCount();
+					}
 				}
 			}
 		});

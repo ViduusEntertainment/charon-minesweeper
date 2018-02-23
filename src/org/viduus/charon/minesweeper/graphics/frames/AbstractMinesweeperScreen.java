@@ -243,7 +243,7 @@ public abstract class AbstractMinesweeperScreen extends UiPanel {
 	 * 
 	 */
 	public void decrementFlagCount() {
-		flag_count++;
+		flag_count--;
 	}
 
 }
