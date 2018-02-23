@@ -1,0 +1,264 @@
+{
+  "sprite_map": "resources/img/sprites/atlas.png",
+  "size": {
+    "width": 160,
+    "height": 144
+  },
+  "hands": {
+    "left": [],
+    "right": []
+  },
+  "layouts": {
+    "static": [],
+    "tiled": [
+      {
+        "row_offset": 1000,
+        "location": {
+          "x": 0,
+          "y": 64
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "size": {
+          "width": 13,
+          "height": 23
+        },
+        "masks": {
+          "0": {
+            "collision": [],
+            "image": []
+          },
+          "1": {
+            "collision": [],
+            "image": []
+          },
+          "2": {
+            "collision": [],
+            "image": []
+          },
+          "3": {
+            "collision": [],
+            "image": []
+          },
+          "4": {
+            "collision": [],
+            "image": []
+          },
+          "5": {
+            "collision": [],
+            "image": []
+          },
+          "6": {
+            "collision": [],
+            "image": []
+          },
+          "7": {
+            "collision": [],
+            "image": []
+          },
+          "8": {
+            "collision": [],
+            "image": []
+          },
+          "9": {
+            "collision": [],
+            "image": []
+          },
+          "10": {
+            "collision": [],
+            "image": []
+          },
+          "11": {
+            "collision": [],
+            "image": []
+          }
+        },
+        "animations": [
+          {
+            "name": "vid:animation:seven_seg.background",
+            "sustain": true,
+            "variants": [
+              {
+                "frames": [
+                  {
+                    "id": 0,
+                    "duration": 250
+                  }
+                ],
+                "probability": 1.0
+              }
+            ]
+          },
+          {
+            "name": "vid:animation:seven_seg.blank",
+            "sustain": true,
+            "variants": [
+              {
+                "frames": [
+                  {
+                    "id": 1,
+                    "duration": 250
+                  }
+                ],
+                "probability": 1.0
+              }
+            ]
+          },
+          {
+            "name": "vid:animation:seven_seg.0",
+            "sustain": true,
+            "variants": [
+              {
+                "frames": [
+                  {
+                    "id": 2,
+                    "duration": 250
+                  }
+                ],
+                "probability": 1.0
+              }
+            ]
+          },
+          {
+            "name": "vid:animation:seven_seg.1",
+            "sustain": true,
+            "variants": [
+              {
+                "frames": [
+                  {
+                    "id": 3,
+                    "duration": 250
+                  }
+                ],
+                "probability": 1.0
+              }
+            ]
+          },
+          {
+            "name": "vid:animation:seven_seg.2",
+            "sustain": true,
+            "variants": [
+              {
+                "frames": [
+                  {
+                    "id": 4,
+                    "duration": 250
+                  }
+                ],
+                "probability": 1.0
+              }
+            ]
+          },
+          {
+            "name": "vid:animation:seven_seg.3",
+            "sustain": true,
+            "variants": [
+              {
+                "frames": [
+                  {
+                    "id": 5,
+                    "duration": 250
+                  }
+                ],
+                "probability": 1.0
+              }
+            ]
+          },
+          {
+            "name": "vid:animation:seven_seg.4",
+            "sustain": true,
+            "variants": [
+              {
+                "frames": [
+                  {
+                    "id": 6,
+                    "duration": 250
+                  }
+                ],
+                "probability": 1.0
+              }
+            ]
+          },
+          {
+            "name": "vid:animation:seven_seg.5",
+            "sustain": true,
+            "variants": [
+              {
+                "frames": [
+                  {
+                    "id": 7,
+                    "duration": 250
+                  }
+                ],
+                "probability": 1.0
+              }
+            ]
+          },
+          {
+            "name": "vid:animation:seven_seg.6",
+            "sustain": true,
+            "variants": [
+              {
+                "frames": [
+                  {
+                    "id": 8,
+                    "duration": 250
+                  }
+                ],
+                "probability": 1.0
+              }
+            ]
+          },
+          {
+            "name": "vid:animation:seven_seg.7",
+            "sustain": true,
+            "variants": [
+              {
+                "frames": [
+                  {
+                    "id": 9,
+                    "duration": 250
+                  }
+                ],
+                "probability": 1.0
+              }
+            ]
+          },
+          {
+            "name": "vid:animation:seven_seg.8",
+            "sustain": true,
+            "variants": [
+              {
+                "frames": [
+                  {
+                    "id": 10,
+                    "duration": 250
+                  }
+                ],
+                "probability": 1.0
+              }
+            ]
+          },
+          {
+            "name": "vid:animation:seven_seg.9",
+            "sustain": true,
+            "variants": [
+              {
+                "frames": [
+                  {
+                    "id": 11,
+                    "duration": 250
+                  }
+                ],
+                "probability": 1.0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "free": []
+  }
+}
