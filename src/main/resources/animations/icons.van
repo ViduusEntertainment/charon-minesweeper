@@ -1,0 +1,90 @@
+{
+  "sprite_map": "resources/img/sprites/atlas.png",
+  "size": {
+    "width": 160,
+    "height": 144
+  },
+  "hands": {
+    "left": [],
+    "right": []
+  },
+  "layouts": {
+    "static": [],
+    "tiled": [
+      {
+        "row_offset": 1000,
+        "location": {
+          "x": 0,
+          "y": 16
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "size": {
+          "width": 16,
+          "height": 16
+        },
+        "masks": {
+          "3": {
+            "collision": [],
+            "image": []
+          },
+          "4": {
+            "collision": [],
+            "image": []
+          }
+        },
+        "padding": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "animations": [
+          {
+            "name": "bomb",
+            "types": {
+              "default": {
+                "uid": "vid:animation:icons.bomb",
+                "sustain": true,
+                "variants": [
+                  {
+                    "frames": [
+                      {
+                        "id": 3,
+                        "duration": 250
+                      }
+                    ],
+                    "probability": 1.0
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "flag",
+            "types": {
+              "default": {
+                "uid": "vid:animation:icons.flag",
+                "sustain": true,
+                "variants": [
+                  {
+                    "frames": [
+                      {
+                        "id": 4,
+                        "duration": 250
+                      }
+                    ],
+                    "probability": 1.0
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "free": []
+  }
+}
