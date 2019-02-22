@@ -199,7 +199,7 @@ public abstract class AbstractMinesweeperScreen extends Panel {
 	 * @param uncovered_buttons 
 	 */
 	public void buttonUncovered(int col, int row, int uncovered_buttons) {
-		this.uncovered_buttons.getAndIncrement();
+		this.uncovered_buttons.getAndAdd(uncovered_buttons);
 
 		if (!game_timer.isStarted()) {
 			game_timer.reset();
